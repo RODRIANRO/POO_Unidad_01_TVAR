@@ -66,5 +66,9 @@ public class Unidad_01_02 {
            var costoMatricula=10000d;
         costoMatricula=autoAngel.calcularMatricula(2010, 10000);
         System.out.println("Debe pagar "+costoMatricula+" USD por concepto de matrícula");
+        
+        var Añocarro=autoAngel.AñoYear(2020);
+        System.out.println("El año del carro es:"+Añocarro+"Año");
+                
     }
 }
